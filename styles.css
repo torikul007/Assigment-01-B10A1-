@@ -15,9 +15,9 @@ body {
 	margin: 0 auto;
 }
 
-/* Header Area Start */
+/* Header Area */
 
-/* header Top */
+
 
 .header_top {
 	margin: 30px 0;
@@ -95,10 +95,10 @@ body {
 	color: rgb(13, 19, 33);
 }
 
-/* Header Area End */
 
 
-/* Development Area Start */
+
+/* Development Area  */
 
 
 .wrapper {
@@ -159,9 +159,9 @@ body {
 	background: transparent;
 }
 
-/* Development Area End */
 
-/* Inspiration Area Start */
+
+/* Inspiration Area  */
 
 .inspiration_section {
 	margin: 80px 0;
@@ -183,9 +183,9 @@ body {
 }
 
 
-/* Inspiration Area End */
 
-/* Target Area Start */
+
+/* Target Area  */
 
 .target_area {
 	margin: 100px 0;
@@ -193,9 +193,9 @@ body {
 
 .card_area {
 	margin-top: 50px;
-	display: flex;
-	justify-content: space-between;
-	gap: 20px;
+	 display: flex;
+	 justify-content: space-between;
+	 gap: 20px;
 }
 
 
@@ -205,62 +205,62 @@ body {
 }
 
 .card h4 {
-	text-transform: uppercase;
-	color: rgb(13, 19, 33);
-	font-family: Azeret Mono;
-	font-size: 20px;
-	font-weight: 600;
-	line-height: 36px;
-	margin-top: 20px;
+	 text-transform: uppercase;
+	 color: rgb(13, 19, 33);
+	 font-family: Azeret Mono;
+	 font-size: 20px;
+	 font-weight: 600;
+	 line-height: 36px;
+	 margin-top: 20px;
 }
 
 .card p {
-	margin-top: 20px;
-	color: rgb(13, 19, 33);
-	font-family: Azeret Mono;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 26px;
-	opacity: 0.7;
+	 margin-top: 20px;
+	 color: rgb(13, 19, 33);
+	 font-family: Azeret Mono;
+	 font-size: 16px;
+	 font-weight: 400;
+	 line-height: 26px;
+	 opacity: 0.75;
 }
 
 .card a {
 	display: block;
 	margin-top: 20px;
 	color: rgb(13, 19, 33);
-	font-size: 16px;
+	 font-size: 16px;
 	font-weight: 700;
 	line-height: 19px;
 	transition: 1s;
 }
 
 .card a:hover {
-	text-decoration: none;
+	 text-decoration: none;
 }
 
 .html_card {
-	background: rgba(255, 76, 30, 0.05);
+	 background: rgba(255, 76, 30, 0.05);
 }
 
 .css_card {
-	background: rgba(0, 76, 232, 0.05);
+	 background: rgba(0, 76, 232, 0.05);
 }
 
 .js_card {
-	background: rgba(255, 223, 0, 0.05);
+	 background: rgba(255, 223, 0, 0.05);
 }
 
-/* Target Area End */
 
 
-/* Support Area Start */
+
+/* Support Area  */
 
 .support_area {
 	margin: 80px 0;
 }
 
 .support_wrapper {
-	background-color: rgba(0, 0, 0, 0.2);
+	 background-color: rgba(0, 0, 0, 0.2);
 	background-image: url(assets/handshake.jpg);
 	background-blend-mode: overlay;
 	background-repeat: no-repeat;
@@ -276,8 +276,8 @@ body {
 }
 
 .support_dec {
-	color: rgb(255, 255, 255);
-	opacity: 0.7;
+	 color: rgb(255, 255, 255);
+	 opacity: 0.7;
 }
 
 .support_form {
@@ -286,11 +286,11 @@ body {
 }
 
 .support_form input {
-	padding: 15px 30px;
+	 padding: 15px 30px;
 	border-radius: 5px;
 	border: none;
 	font-size: 16px;
-	line-height: 23px;
+	 line-height: 23px;
 	width: 40%;
 	outline: inherit;
 
@@ -305,13 +305,13 @@ body {
 }
 
 .support_form input[type=submit]:hover {
-	background: #bdafaf;
+	 background: #bdafaf;
 }
 
-/* Support Area End */
 
 
-/* Footer Area Start */
+
+/* Footer Area  */
 
 .footer_area{
 	background: #F8F9F9;
@@ -324,11 +324,11 @@ body {
 }
 
 .footer_left_area p {
-	color: rgb(13, 19, 33);
-	font-size: 20px;
-	font-weight: 600;
-	line-height: 23px;
+	 color: rgb(13, 19, 33);
+	 font-size: 20px;
+	 font-weight: 600;
+	 line-height: 23px;
 
 }
 
-/* Footer Area End */
+
