@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Azeret Mono", monospace;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/* Header Area Start */
+
+/* header Top */
+
+.header_top {
+	margin: 30px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo_area {
+	color: rgb(13, 19, 33);
+	font-size: 28px;
+	font-weight: 800;
+}
+
+.btn {
+	color: rgb(13, 19, 33);
+	font-size: 18px;
+	font-weight: 600;
+	font-family: Azeret Mono;
+	border: 1px solid rgb(13, 19, 33);
+	padding: 15px 30px;
+	background: transparent;
+	border-radius: 10px;
+	transition: 1s;
+	opacity: 0.7;
+}
+
+.btn:hover {
+	background: rgb(13, 19, 33);
+	color: #fff;
+}
+
+/* Hero Area */
+
+.hero_area {
+	height: 652px;
+	background: url('assets/Hero-bg.png');
+}
+
+.hero_content {
+	text-align: center;
+	height: 652px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.hero_content h1 {
+	color: rgb(13, 19, 33);
+	font-size: 48px;
+	font-weight: 800;
+	line-height: 68px;
+}
+
+.hero_area p {
+	color: rgb(13, 19, 33);
+	font-family: Azeret Mono;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	margin: 20px 0;
+}
+
+.hero_content .btn {
+	text-decoration: none;
+	background: rgb(13, 19, 33);
+	color: #fff;
+	opacity: 1;
+
+}
+
+.hero_content .btn:hover {
+	background: transparent;
+	color: rgb(13, 19, 33);
+}
+
+/* Header Area End */
+
+
+/* Development Area Start */
+
+
+.wrapper {
+	background: #FAFAFB;
+	padding: 80px;
+}
+
+.title_content {
+	text-align: center;
+}
+
+.section_title {
+	font-size: 30px;
+	color: rgb(13, 19, 33);
+	font-weight: 700;
+	line-height: 30px;
+	margin-bottom: 24px;
+}
+
+.section_dec {
+	color: rgb(13, 19, 33);
+	font-family: Azeret Mono;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	opacity: 0.7;
+}
+
+
+.development_box1 {
+	margin: 50px;
+	background: #fff;
+	padding: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.development_box_title {
+	color: rgba(13, 19, 33, 0.7);
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 36px;
+	margin-bottom: 20px;
+}
+
+.development_box_btn {
+	margin-top: 20px;
+	color: rgb(13, 19, 33);
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 23px;
+	border-radius: inherit;
+	opacity: 0.7;
+}
+
+.box2 {
+	background: transparent;
+}
+
+/* Development Area End */
+
+/* Inspiration Area Start */
+
+.inspiration_section {
+	margin: 80px 0;
+}
+
+.inspiration_video {
+	margin-top: 50px;
+	padding: 40px;
+	border: 1px solid rgba(13, 19, 33, 0.2);
+	border-radius: 16px;
+
+}
+
+.inspiration_video iframe {
+	width: 100%;
+	height: 600px;
+	border-radius: 16px;
+	border: none;
+}
+
+
+/* Inspiration Area End */
+
+/* Target Area Start */
+
+.target_area {
+	margin: 100px 0;
+}
+
+.card_area {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+
+.card {
+	padding: 40px;
+	border-radius: 16px;
+}
+
+.card h4 {
+	text-transform: uppercase;
+	color: rgb(13, 19, 33);
+	font-family: Azeret Mono;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 36px;
+	margin-top: 20px;
+}
+
+.card p {
+	margin-top: 20px;
+	color: rgb(13, 19, 33);
+	font-family: Azeret Mono;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	opacity: 0.7;
+}
+
+.card a {
+	display: block;
+	margin-top: 20px;
+	color: rgb(13, 19, 33);
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 19px;
+	transition: 1s;
+}
+
+.card a:hover {
+	text-decoration: none;
+}
+
+.html_card {
+	background: rgba(255, 76, 30, 0.05);
+}
+
+.css_card {
+	background: rgba(0, 76, 232, 0.05);
+}
+
+.js_card {
+	background: rgba(255, 223, 0, 0.05);
+}
+
+/* Target Area End */
+
+
+/* Support Area Start */
+
+.support_area {
+	margin: 80px 0;
+}
+
+.support_wrapper {
+	background-color: rgba(0, 0, 0, 0.2);
+	background-image: url(assets/handshake.jpg);
+	background-blend-mode: overlay;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 80px 60px;
+	border-radius: 16px;
+}
+
+
+.support_title {
+	color: #fff;
+}
+
+.support_dec {
+	color: rgb(255, 255, 255);
+	opacity: 0.7;
+}
+
+.support_form {
+	margin-top: 20PX;
+	text-align: center;
+}
+
+.support_form input {
+	padding: 15px 30px;
+	border-radius: 5px;
+	border: none;
+	font-size: 16px;
+	line-height: 23px;
+	width: 40%;
+	outline: inherit;
+
+
+}
+
+.support_form input[type=submit] {
+	font-weight: 600;
+	width: 15%;
+	transition: 1s;
+	;
+}
+
+.support_form input[type=submit]:hover {
+	background: #bdafaf;
+}
+
+/* Support Area End */
+
+
+/* Footer Area Start */
+
+.footer_area{
+	background: #F8F9F9;
+	padding: 25px 0;
+}
+
+.footer_wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer_left_area p {
+	color: rgb(13, 19, 33);
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 23px;
+
+}
