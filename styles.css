@@ -15,9 +15,9 @@ body {
 	margin: 0 auto;
 }
 
-/* Header Area  */
+/* Header Area Start */
 
-
+/* header Top */
 
 .header_top {
 	margin: 30px 0;
@@ -95,10 +95,10 @@ body {
 	color: rgb(13, 19, 33);
 }
 
+/* Header Area End */
 
 
-
-/* Development Area  */
+/* Development Area Start */
 
 
 .wrapper {
@@ -128,7 +128,7 @@ body {
 }
 
 
-.development-box1 {
+.developt-box1 {
 	margin: 50px;
 	background: #fff;
 	padding: 50px;
@@ -159,9 +159,9 @@ body {
 	background: transparent;
 }
 
+/* Development Area End */
 
-
-/* Inspiration Area  */
+/* Inspiration Area Start */
 
 .inspiration_section {
 	margin: 80px 0;
@@ -183,9 +183,9 @@ body {
 }
 
 
+/* Inspiration Area End */
 
-
-/* Target Area  */
+/* Target Area Start */
 
 .target_area {
 	margin: 100px 0;
@@ -250,10 +250,10 @@ body {
 	background: rgba(255, 223, 0, 0.05);
 }
 
+/* Target Area End */
 
 
-
-/* Support Area  */
+/* Support Area Start */
 
 .support_area {
 	margin: 80px 0;
@@ -308,10 +308,10 @@ body {
 	background: #bdafaf;
 }
 
+/* Support Area End */
 
 
-
-/* Footer Area  */
+/* Footer Area Start */
 
 .footer_area{
 	background: #F8F9F9;
